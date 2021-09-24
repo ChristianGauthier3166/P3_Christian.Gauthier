@@ -292,7 +292,6 @@ ul
 	color: black;
 	cursor: pointer;
 	margin-top: 5px;
-	
 }
 
 .fill:hover
@@ -311,7 +310,6 @@ ul
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 }
 .location
 {
@@ -319,7 +317,6 @@ ul
 	margin: -10px;
 	margin-left: 10px;
 }
-
 
 
 /*LOGO/OHMYFOOD/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
@@ -341,15 +338,6 @@ ul
 
 /*MENU/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
 
-/*.mainMenu
-{
-	background-color:#EFEFEF;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
-	width: 100%;
-	position: relative;
-	margin-top: -50px;
-}*/
 .mainMenu {
     background-color: #F2F2F2;
     border-radius: 30px 30px 0px 0px;
