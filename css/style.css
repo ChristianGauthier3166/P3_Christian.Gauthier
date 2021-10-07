@@ -51,7 +51,12 @@ h1
 
 h2
 {
-	font-size:x-large;
+	font-size: x-large;
+	
+
+}
+body h2 {
+    font-family: "Shrikhand", sans serif;
 	
 }
 
@@ -126,12 +131,26 @@ ul
 	outline-style: none ;
 }
 /*INFORMATION/OHMYFOOD*/
-.bloc1
+/*.bloc1
 {
 	text-align: center;
 	background: #EFEFEF;
 	padding: 50px 10px;
 	
+
+}*/
+.bloc1 h2{
+	margin-top: 0px;
+    font-size: 1.6em;
+}
+.bloc1{
+	background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
 }
 
 .bloc2 p
@@ -342,9 +361,33 @@ ul
     background-color: #F2F2F2;
     border-radius: 30px 30px 0px 0px;
     padding-bottom: 50px;
+	-webkit-animation-name: fadeInOpacity;
+	animation-name: fadeInOpacity;
+-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+-webkit-animation-duration: 2s;
+	animation-duration: 4s;
 }
 
+@-webkit-keyframes fadeInOpacity {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
 
+@keyframes fadeInOpacity {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
 .headerImg img
 {
 	object-fit: cover;
@@ -359,8 +402,7 @@ ul
 	justify-content: space-between;
 	padding: 40px;
 	padding-left: 30px;
-
-	
+	font-size: 1.2em;
 	
 }
 /*ENTREES/PLATS/DESSERTS/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
@@ -431,7 +473,6 @@ ul
 	align-items: center;
 	line-height: 1.5em;
 }
-
 .accompagned p
 {
 	margin: 0;
