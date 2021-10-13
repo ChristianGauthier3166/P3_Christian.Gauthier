@@ -1,5 +1,6 @@
 /*ANIMATION-ENTRER*/
-.loader {
+.loader
+{
 	background: -webkit-linear-gradient(#FFFFFF, #99E2D0, #FF79DA, #9356DC);
 	width: 100%;
 	height: 100%;
@@ -10,37 +11,53 @@
 	top: 0px;
 	pointer-events: none;
 	animation: loader 1s ease-in-out 3s forwards;
-  }
-  .loaderKnife {
+}
+
+.loaderKnife
+{
 	position: absolute;
 	top: 38%;
 	left: 42%;
 	animation: rotate 2s linear infinite;
-  }
-  @keyframes rotate {
-	from {
-	  -webkit-transform: rotate(0deg);
+}
+
+@keyframes rotate
+{
+	from
+	{
+		-webkit-transform: rotate(0deg);
 	}
-	to {
-	  -webkit-transform: rotate(360deg);
+
+	to
+	{
+		-webkit-transform: rotate(360deg);
 	}
-  }
-  @keyframes loader {
-	0% {
-	  opacity: 1;
+
+}
+
+@keyframes loader
+{
+	0%
+	{
+		opacity: 1;
 	}
-	50% {
-	  opacity: 0.5;
+
+	50%
+	{
+		opacity: 0.5;
 	}
-	100% {
-	  opacity: 0;
+
+	100%
+	{
+		opacity: 0;
 	}
-  }
-  /*GENERALITES*/
+
+}
+
+/*GENERALITES*/
 body,html
 {
 	font-family: Shrikhand,Roboto, sans-serif;
-	
 }
 
 h1
@@ -48,7 +65,6 @@ h1
 	font-size: 28px;
 	font-family: Shrikhand,Roboto, sans-serif;
 	white-space:nowrap;
-	
 }
 
 h2
@@ -57,14 +73,12 @@ h2
 	margin-right: 60px;
 	font-size: 22px;
 	font-family: "Roboto", sans-serif;
-	
 }
+
 h3
 {
 	margin-left: 12px;
 	font-size: 18px;
-	
-	
 }
 
 h4
@@ -85,9 +99,12 @@ a
 	text-decoration: none;
 	color: black;
 }
-b{
+
+b
+{
 	font-size: 16px;
 }
+
 li
 {
 	list-style-type: none;
@@ -98,9 +115,12 @@ ul
 	list-style: none;
 	margin-left: 20px;
 }
-p{
+
+p
+{
 	font-size: 16px;
 }
+
 /*LOGO-OHMYFOOD/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
 .margLogo
 {
@@ -134,6 +154,7 @@ p{
 	width: 150px;
 	outline-style: none ;
 }
+
 /*INFORMATION/OHMYFOOD*/
 .bloc1
 {
@@ -141,15 +162,13 @@ p{
 	background: #EFEFEF;
 	padding: 50px 0px;
 	margin-right: 0px;
-	
-}	
+}
 
 .bloc2 p
 {
 	padding: 10px;
 	opacity: 0.5;
 }
-
 
 /*EXPLORATION RESTAURANTS/OHMYFOOD*/
 .exploResto button
@@ -175,17 +194,15 @@ p{
 	box-shadow: 4px 4px 2px #000;
 }
 
-
 /*FONCTIONNEMENT/OHMYFOOD*/
-
-.operation h2 {
-	
-    margin: 20px;
+.operation h2
+{
+	margin: 20px;
 	padding: 30px 0px 10px 0px;
-	
-  }
+}
 
-  .operationChoice li {
+.operationChoice li
+{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -197,30 +214,42 @@ p{
 	box-shadow: 1px 2px 8px 2px #c4c4c4;
 	background-color: #f5f5f5;
 	margin-right: 20px;
-  }
-  .operationChoice li p {
+}
+
+.operationChoice li p
+{
 	font-weight: 500;
 	margin-left: 20px;
-  }
-  .operationChoice li:hover {
+}
+
+.operationChoice li:hover
+{
 	background: #f2eafb;
-  }
-  .operationChoice li:hover .fas {
+}
+
+.operationChoice li:hover .fas
+{
 	color: #9356dc;
-  }
-  .operationChoiceNumber {
+}
+
+.operationChoiceNumber
+{
 	background-color: #9356dc;
 	color: white;
 	border-radius: 50%;
 	padding: 5px 9px;
 	margin-left: -45px;
-  }
-  .operationChoiceIcon {
+}
+
+.operationChoiceIcon
+{
 	color: grey;
 	font-size: 1.3rem;
 	margin-left: 25px;
-  }
-  .number {
+}
+
+.number
+{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -232,7 +261,8 @@ p{
 	height: 25px;
 	position: relative;
 	right: 10px;
-  }
+}
+
 /*RESTAURANTS/OHMYFOOD*/
 .restaurant
 {
@@ -240,12 +270,14 @@ p{
 	background: #f2f2f2;
 	margin-top: 70px;
 }
+
 .blocResto
 {
 	background: #f2f2f2;
 	flex-direction: column;
 	padding: 20px 0px 0px 0px;
 }
+
 .titleResto h2
 {
 	padding: 60px 0px 0px 10px;
@@ -270,15 +302,13 @@ p{
 	width: 100%;
 	height:100%;
 	max-height: 210px;
-	
 }
 
 .contenuPresentaResto
 {
 	padding: 0px 0px 0px 0px;
-	
-
 }
+
 /*NOUVEAU/OHMYFOOD*/
 .new
 {
@@ -290,6 +320,7 @@ p{
 	right: 3%;
 	top: 5%;
 }
+
 .nomResto
 {
 	display: flex;
@@ -298,12 +329,12 @@ p{
 	margin-right: 30px;
 	height: 50px;
 }
+
 /*COEUR REMPLI/OHMYFOOD/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
 .fill
 {
 	color: black;
 	cursor: pointer;
-	
 }
 
 .fill:hover
@@ -317,22 +348,26 @@ p{
 	-webkit-text-fill-color: transparent;
 	font-weight: bold;
 }
-.fillHeart{
+
+.fillHeart
+{
 	font-size: 12px;
 	margin-right: 10px;
 }
-.heart{
+
+.heart
+{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
 .location
 {
 	padding: 0px;
 	margin: -10px;
 	margin-left: 12px;
 }
-
 
 /*LOGO/OHMYFOOD/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
 .menuHeader
@@ -349,92 +384,105 @@ p{
 	font-size: 20px;
 }
 
-
-
 /*MENU/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
-
-.mainMenu {
+.mainMenu
+{
 	width: 100%;
 	position: relative;
 	margin-top: -50px;
-    background-color: #F2F2F2;
-    border-radius: 35px 35px 0px 0px;
-    padding-bottom: 10px;
+	background-color: #F2F2F2;
+	border-radius: 35px 35px 0px 0px;
+	padding-bottom: 10px;
 	-webkit-animation-name: fadeInOpacity;
 	animation-name: fadeInOpacity;
--webkit-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
 	animation-iteration-count: 1;
--webkit-animation-timing-function: ease-in;
+	-webkit-animation-timing-function: ease-in;
 	animation-timing-function: ease-in;
--webkit-animation-duration: 2s;
+	-webkit-animation-duration: 2s;
 	animation-duration: 4s;
-	
 }
 
-@-webkit-keyframes fadeInOpacity {
-0% {
-opacity: 0;
-}
-100% {
-opacity: 1;
-}
+@-webkit-keyframes fadeInOpacity
+{
+	0%
+	{
+		opacity: 0;
+	}
+
+	100%
+	{
+		opacity: 1;
+	}
 }
 
-@keyframes fadeInOpacity {
-0% {
-opacity: 0;
+@keyframes fadeInOpacity
+{
+	0%
+	{
+		opacity: 0;
+	}
+
+	100%
+	{
+		opacity: 1;
+	}
 }
-100% {
-opacity: 1;
-}
-}
+
 .headerImg img
 {
 	object-fit: cover;
 	width: 100%;
 	height: 250px;
 }
-/*
-.menuTitle
+
+/*.menuTitle
 {
 	font-family: Shrikhand, sans-serif;
 	display: flex;
 	justify-content: space-between;
 	font-size: 1.2em;
 	padding: 35px;
-		
-	
 }
-.menuTitle h2{
+
+.menuTitle h2
+{
 	font-size: 30px;
 	font-family: Shrikhand, sans-serif;
-	margin-left: 0px;	
+	margin-left: 0px;
 }
-*/
 
-.menuTitle {
+*/
+.menuTitle
+{
 	font-family: Shrikhand, sans-serif;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px;
 	margin-left: -5px;
-  }
-  @media screen and (min-width: 450px) {
-	.menuTitle {
-	  padding: 10px 90px;
-	  
-	  
+}
+
+@media screen and (min-width: 450px)
+{
+	.menuTitle
+	{
+		padding: 10px 90px;
 	}
-  }
-  .menuTitleHeader{
+
+}
+
+.menuTitleHeader
+{
 	align-items: center;
-  }
+}
+
 /*ENTREES/PLATS/DESSERTS/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
-.starter 
+.starter
 {
 	animation: fadein 3s ease-in-out;
 }
+
 .dishesTitle h3, .dessertTitle h3
 {
 	padding-left: 10px;
@@ -443,14 +491,15 @@ opacity: 1;
 	margin-top: 40px;
 	font-size: 16px;
 }
-.starterTitle h3{
+
+.starterTitle h3
+{
 	padding-left: 10px;
 	text-transform: uppercase;
 	margin-bottom: 5px;
 	margin-top: 5px;
 	font-size: 16px;
 }
-
 
 .dishes
 {
@@ -460,8 +509,6 @@ opacity: 1;
 .dessert
 {
 	animation: fadein 9s ease-in-out;
-	
-
 }
 
 .line
@@ -469,8 +516,8 @@ opacity: 1;
 	width: 50px;
 	border: 2px solid #99E2D0;
 	margin-left: 22px;
-		
 }
+
 .composition
 {
 	background-color: #fff;
@@ -485,6 +532,7 @@ opacity: 1;
 	overflow: hidden;
 	transition: padding-right 450ms ease-in-out;
 }
+
 .composition:hover
 {
 	padding-right: 75px;
@@ -500,13 +548,15 @@ opacity: 1;
 {
 	transform: rotate(360deg);
 }
-.composition h4 
+
+.composition h4
 {
 	margin: 0;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
+
 .accompagned
 {
 	display: flex;
@@ -514,13 +564,15 @@ opacity: 1;
 	align-items: center;
 	line-height: 1.5em;
 }
-.accompagned p 
+
+.accompagned p
 {
 	margin: 0;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
+
 .accompagned span
 {
 	margin-right: 5px;
@@ -541,24 +593,26 @@ opacity: 1;
 	opacity: 0;
 	padding: 20px;
 	right: -50px;
-		
 	transition: transform 430ms ease-in-out;
 }
 
-.cross .fa-check-circle 
+.cross .fa-check-circle
 {
 	color: #fff;
 	transition: transform 400ms ease-in-out;
 }
+
 /*BUTTON COMMANDER/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS*/
-.order {
-	
+.order
+{
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
 	margin-bottom: 60px;
-  }
-.order span{
+}
+
+.order span
+{
 	background-color:#EFEFEF;
 }
 
@@ -571,7 +625,7 @@ opacity: 1;
 	color: #fff;
 	font-weight: bold;
 	box-shadow: 4px 4px 6px #aaa;
-	cursor: pointer;		
+	cursor: pointer;
 }
 
 .order button:hover
@@ -581,13 +635,11 @@ opacity: 1;
 	box-shadow: 4px 4px 2px #000;
 }
 
-
 /*FOOTER/OHMYFOOD/LA PALETTE DU GOUT/LA NOTE ENCHANTEE/A LA FRANCAISE/LE DELICE DES SENS */
 .footer
 {
 	background-color: #353535;
 	padding: 5px;
-	
 }
 
 .footerLogo
@@ -599,8 +651,8 @@ opacity: 1;
 	display: block;
 	margin: 20px;
 	margin-left: 20px;
-	
 }
+
 .footerList
 {
 	margin-bottom: 12px;
@@ -617,7 +669,6 @@ opacity: 1;
 	text-decoration: none;
 	color:#99E2D0;
 }
-
 
 
 
