@@ -393,14 +393,7 @@ p
 	background-color: #F2F2F2;
 	border-radius: 35px 35px 0px 0px;
 	padding-bottom: 10px;
-	-webkit-animation-name: fadeInOpacity;
-	animation-name: fadeInOpacity;
-	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;
-	-webkit-animation-timing-function: ease-in;
-	animation-timing-function: ease-in;
-	-webkit-animation-duration: 2s;
-	animation-duration: 4s;
+	
 }
 
 @-webkit-keyframes fadeInOpacity
@@ -530,12 +523,20 @@ p
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	transition: padding-right 450ms ease-in-out;
+	-webkit-animation-name: fadeInOpacity;
+	animation-name: fadeInOpacity;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	animation-duration: 3s;	
 }
 
 .composition:hover
 {
 	padding-right: 75px;
+	
 }
 
 .composition:hover .cross
@@ -563,6 +564,9 @@ p
 	justify-content: space-between;
 	align-items: center;
 	line-height: 1.5em;
+	
+	
+
 }
 
 .accompagned p
