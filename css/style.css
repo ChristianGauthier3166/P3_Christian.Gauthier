@@ -474,6 +474,14 @@ p
 .starter
 {
 	animation: fadein 3s ease-in-out;
+	-webkit-animation-name: fadeInOpacity;
+	animation-name: fadeInOpacity;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
 }
 
 .dishesTitle h3, .dessertTitle h3
@@ -491,17 +499,34 @@ p
 	text-transform: uppercase;
 	margin-bottom: 5px;
 	margin-top: 5px;
-	font-size: 16px;
+	font-size: 16px;	
+
 }
 
 .dishes
 {
 	animation: fadein 6s ease-in-out;
+	-webkit-animation-name: fadeInOpacity;
+	animation-name: fadeInOpacity;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	-webkit-animation-duration: 4s;
+	animation-duration: 4s;
 }
 
 .dessert
 {
 	animation: fadein 9s ease-in-out;
+	-webkit-animation-name: fadeInOpacity;
+	animation-name: fadeInOpacity;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	-webkit-animation-duration: 6s;
+	animation-duration: 6s;
 }
 
 .line
@@ -523,14 +548,7 @@ p
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	-webkit-animation-name: fadeInOpacity;
-	animation-name: fadeInOpacity;
-	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;
-	-webkit-animation-timing-function: ease-in;
-	animation-timing-function: ease-in;
-	-webkit-animation-duration: 2s;
-	animation-duration: 3s;	
+	
 }
 
 .composition:hover
@@ -556,7 +574,8 @@ p
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
-}
+	
+}	
 
 .accompagned
 {
@@ -575,11 +594,13 @@ p
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	
 }
 
 .accompagned span
 {
 	margin-right: 5px;
+	
 }
 
 .cross
